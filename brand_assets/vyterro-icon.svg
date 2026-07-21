@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="navyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#152A4E"/>
+    <stop offset="55%" stop-color="#0B1730"/>
+    <stop offset="100%" stop-color="#060C1C"/>
+  </linearGradient>
+  <linearGradient id="shieldStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F2F3F5"/>
+    <stop offset="50%" stop-color="#B7BFC8"/>
+    <stop offset="100%" stop-color="#818B96"/>
+  </linearGradient>
+  <linearGradient id="vGrad" x1="0%" y1="0%" x2="75%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="55%" stop-color="#DADEE2"/>
+    <stop offset="100%" stop-color="#8F99A4"/>
+  </linearGradient>
+  <linearGradient id="textGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="55%" stop-color="#C9CFD5"/>
+    <stop offset="100%" stop-color="#8C97A3"/>
+  </linearGradient>
+</defs>
+
+<g transform="translate(0,0)">
+  <rect x="0" y="0" width="400" height="400" fill="url(#navyBg)"/>
+  <path d="M200,20
+           L36,56
+           C30,90 32,110 32,124
+           C30,150 40,170 48,188
+           C58,210 64,224 72,240
+           C84,262 100,278 116,292
+           C140,312 170,328 200,340
+           C230,328 260,312 284,292
+           C300,278 316,262 328,240
+           C336,224 342,210 352,188
+           C360,170 370,150 368,124
+           C368,110 370,90 364,56
+           Z"
+        fill="url(#navyBg)" stroke="url(#shieldStroke)" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M64,77 L122.8,197.2 L156,254.8 L181.6,219.2 L110.4,77.6 Z" fill="url(#vGrad)"/>
+  <path d="M315.6,76.8 L278.8,78.4 L226.8,187.6 L288.4,132 L316.8,81.6 Z" fill="url(#vGrad)"/>
+  <path d="M236.8,124.8 L170.8,156 L170,159.6 L195.6,206 L198.8,205.6 L236.8,128.8 Z" fill="url(#vGrad)"/>
+  <path d="M277.2,153.2 L234.4,195.6 L166.8,273.2 L192,318.4 L237.6,236.4 Z" fill="url(#vGrad)"/>
+</g>
+</svg>
