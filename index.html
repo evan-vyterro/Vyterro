@@ -123,25 +123,46 @@
 <header class="fixed top-0 inset-x-0 z-50 bg-navy/95 backdrop-blur supports-[backdrop-filter]:bg-navy/90 border-b border-white/[0.06]">
   <div class="max-w-7xl mx-auto px-6 lg:px-10">
     <div class="flex items-center justify-between h-20">
-      <a href="#top" class="flex items-center gap-3 group">
+      <a href="#top" class="flex items-center gap-3 group shrink-0">
         <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgdmlld0JveD0iMCAwIDQwMCA0MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxkZWZzPgogIDxsaW5lYXJHcmFkaWVudCBpZD0ibmF2eUJnIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMxNTJBNEUiLz4KICAgIDxzdG9wIG9mZnNldD0iNTUlIiBzdG9wLWNvbG9yPSIjMEIxNzMwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNjBDMUMiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxsaW5lYXJHcmFkaWVudCBpZD0ic2hpZWxkU3Ryb2tlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGMkYzRjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjQjdCRkM4Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4MThCOTYiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxsaW5lYXJHcmFkaWVudCBpZD0idkdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iNzUlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZGRkZGIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iI0RBREVFMiIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOEY5OUE0Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8bGluZWFyR3JhZGllbnQgaWQ9InRleHRHcmFkTGlnaHQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkZGRkYiLz4KICAgIDxzdG9wIG9mZnNldD0iNTUlIiBzdG9wLWNvbG9yPSIjQzlDRkQ1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4Qzk3QTMiLz4KICA8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cgo8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLDApIj4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNuYXZ5QmcpIi8+CiAgPHBhdGggZD0iTTIwMCwyMAogICAgICAgICAgIEwzNiw1NgogICAgICAgICAgIEMzMCw5MCAzMiwxMTAgMzIsMTI0CiAgICAgICAgICAgQzMwLDE1MCA0MCwxNzAgNDgsMTg4CiAgICAgICAgICAgQzU4LDIxMCA2NCwyMjQgNzIsMjQwCiAgICAgICAgICAgQzg0LDI2MiAxMDAsMjc4IDExNiwyOTIKICAgICAgICAgICBDMTQwLDMxMiAxNzAsMzI4IDIwMCwzNDAKICAgICAgICAgICBDMjMwLDMyOCAyNjAsMzEyIDI4NCwyOTIKICAgICAgICAgICBDMzAwLDI3OCAzMTYsMjYyIDMyOCwyNDAKICAgICAgICAgICBDMzM2LDIyNCAzNDIsMjEwIDM1MiwxODgKICAgICAgICAgICBDMzYwLDE3MCAzNzAsMTUwIDM2OCwxMjQKICAgICAgICAgICBDMzY4LDExMCAzNzAsOTAgMzY0LDU2CiAgICAgICAgICAgWiIKICAgICAgICBmaWxsPSJ1cmwoI25hdnlCZykiIHN0cm9rZT0idXJsKCNzaGllbGRTdHJva2UpIiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNNjQsNzcgTDEyMi44LDE5Ny4yIEwxNTYsMjU0LjggTDE4MS42LDIxOS4yIEwxMTAuNCw3Ny42IFoiIGZpbGw9InVybCgjdkdyYWQpIi8+CiAgPHBhdGggZD0iTTMxNS42LDc2LjggTDI3OC44LDc4LjQgTDIyNi44LDE4Ny42IEwyODguNCwxMzIgTDMxNi44LDgxLjYgWiIgZmlsbD0idXJsKCN2R3JhZCkiLz4KICA8cGF0aCBkPSJNMjM2LjgsMTI0LjggTDE3MC44LDE1NiBMMTcwLDE1OS42IEwxOTUuNiwyMDYgTDE5OC44LDIwNS42IEwyMzYuOCwxMjguOCBaIiBmaWxsPSJ1cmwoI3ZHcmFkKSIvPgogIDxwYXRoIGQ9Ik0yNzcuMiwxNTMuMiBMMjM0LjQsMTk1LjYgTDE2Ni44LDI3My4yIEwxOTIsMzE4LjQgTDIzNy42LDIzNi40IFoiIGZpbGw9InVybCgjdkdyYWQpIi8+CjwvZz4KPC9zdmc+" width="38" height="38" alt="Vyterro shield emblem" class="shrink-0 rounded-sm">
         <span class="font-logo text-xl tracking-wide text-platinum">VYTERRO</span>
       </a>
 
-      <nav class="hidden md:flex items-center gap-9 font-heading text-[13px] font-medium tracking-wide uppercase text-silver">
+      <nav class="hidden md:flex items-center gap-6 mx-6 whitespace-nowrap font-heading text-[12px] font-medium tracking-wide uppercase text-silver">
         <a href="#top" class="nav-link hover:text-platinum transition-colors">Home</a>
-        <a href="#offerings" class="nav-link hover:text-platinum transition-colors">Our Offerings</a>
-        <a href="#owner" class="nav-link hover:text-platinum transition-colors">Meet the Owner</a>
+        <a href="#offerings" class="nav-link hover:text-platinum transition-colors">Offerings</a>
+        <a href="#owner" class="nav-link hover:text-platinum transition-colors">Founder</a>
         <a href="#success-stories" class="nav-link hover:text-platinum transition-colors">Success Stories</a>
         <a href="#newsletter" class="nav-link hover:text-platinum transition-colors">Newsletter</a>
-        <a href="#connect" class="nav-link hover:text-platinum transition-colors text-[11px]">Connect</a>
+        <a href="#connect" class="nav-link hover:text-platinum transition-colors">Connect</a>
       </nav>
 
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
-         class="btn-primary hidden sm:inline-flex items-center gap-2 bg-platinum text-navy font-heading text-[13px] font-semibold tracking-wide uppercase px-5 py-2.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
+         class="btn-primary hidden sm:inline-flex items-center gap-2 bg-platinum text-navy font-heading text-[13px] font-semibold tracking-wide uppercase px-5 py-2.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver shrink-0">
         Inquire Now
       </a>
+
+      <button id="mobile-menu-btn" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu"
+              class="md:hidden inline-flex items-center justify-center w-10 h-10 text-platinum shrink-0">
+        <svg id="menu-icon-open" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg id="menu-icon-close" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="hidden"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+      </button>
     </div>
+  </div>
+
+  <div id="mobile-menu" class="md:hidden hidden border-t border-white/[0.08] bg-navy">
+    <nav class="flex flex-col px-6 py-4 gap-1 font-heading text-sm font-medium tracking-wide uppercase text-silver">
+      <a href="#top" class="py-2.5 hover:text-platinum transition-colors">Home</a>
+      <a href="#offerings" class="py-2.5 hover:text-platinum transition-colors">Our Offerings</a>
+      <a href="#owner" class="py-2.5 hover:text-platinum transition-colors">Meet the Owner</a>
+      <a href="#success-stories" class="py-2.5 hover:text-platinum transition-colors">Success Stories</a>
+      <a href="#newsletter" class="py-2.5 hover:text-platinum transition-colors">Newsletter</a>
+      <a href="#connect" class="py-2.5 hover:text-platinum transition-colors">Connect</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
+         class="btn-primary mt-3 inline-flex items-center justify-center gap-2 bg-platinum text-navy text-[13px] font-semibold px-5 py-3 rounded-sm shadow-elevated">
+        Inquire Now
+      </a>
+    </nav>
   </div>
 </header>
 
@@ -168,7 +189,7 @@
       <div class="flex flex-wrap items-center gap-4 fade-rise in-view" style="transition-delay:0.24s">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
            class="btn-primary inline-flex items-center gap-2 bg-platinum text-navy font-heading text-sm font-semibold tracking-wide uppercase px-7 py-4 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
-          Apply for Access
+          Inquire Now
         </a>
         <a href="#offerings"
            class="link-underline inline-flex items-center gap-2 text-platinum font-heading text-sm font-semibold tracking-wide uppercase px-2 py-4 hover:text-white transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver rounded-sm">
@@ -246,119 +267,136 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+    <div class="flex flex-col gap-6">
 
-      <!-- CARD: VYTERRO DEAL ROOM -->
-      <div id="deal-room" class="card-lift bg-deep-navy border border-silver/25 rounded-sm p-8 flex flex-col shadow-floating fade-rise">
-        <span class="inline-flex w-fit font-heading text-[11px] font-semibold tracking-[0.15em] uppercase text-navy bg-silver px-3 py-1 rounded-sm mb-5">Core Offer</span>
-        <h3 class="font-display text-2xl text-platinum mb-3">Vyterro Deal Room</h3>
-        <p class="text-silver leading-[1.7] text-[15px] mb-6">
-          A small, curated group of searchers who are actively working toward a deal and want to get better
-          at executing. This isn't a passive group.
-        </p>
+      <!-- ROW: VYTERRO DEAL ROOM -->
+      <div id="deal-room" class="card-lift bg-deep-navy border border-silver/25 rounded-sm p-8 lg:p-10 shadow-floating fade-rise">
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-10">
+          <div class="lg:col-span-4">
+            <p class="font-display text-4xl text-silver/25 mb-2">01</p>
+            <span class="inline-flex w-fit font-heading text-[11px] font-semibold tracking-[0.15em] uppercase text-navy bg-silver px-3 py-1 rounded-sm mb-5">Core Offer</span>
+            <h3 class="font-display text-2xl text-platinum mb-3">Vyterro Deal Room</h3>
+            <p class="text-silver leading-[1.7] text-[15px]">
+              A small, curated group of searchers who are actively working toward a deal and want to get
+              better at executing. This isn't a passive group.
+            </p>
+            <p class="text-silver/70 text-[13px] leading-relaxed mt-4">
+              For active searchers who know the basics and want to get sharper at evaluating, structuring,
+              and executing — not passive investors or people just kicking the tires.
+            </p>
+          </div>
 
-        <h4 class="font-heading font-semibold text-platinum uppercase tracking-wide text-xs mb-3">What's Included</h4>
-        <ul class="space-y-3 mb-6">
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver">A weekly call on real, live deals. Structuring, negotiating, diligence, and the decisions that matter.</p>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver">Direct access to the founder through Slack, voice notes, and Loom.</p>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver">A small, high-caliber group learning from each other's live deals.</p>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver">The templates, frameworks, and checklists used day to day.</p>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver">Access to the network. Lenders, attorneys, diligence providers, and recruiters.</p>
-          </li>
-        </ul>
+          <div class="lg:col-span-5">
+            <h4 class="font-heading font-semibold text-platinum uppercase tracking-wide text-xs mb-3">What's Included</h4>
+            <ul class="space-y-3">
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver">A weekly call on real, live deals — structuring, negotiating, diligence, and the decisions that matter.</p>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver">Direct access to the founder through Slack, voice notes, and Loom.</p>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver">A small, high-caliber group learning from each other's live deals.</p>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver">The templates, frameworks, and checklists used day to day.</p>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-steel-blue shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver">Access to the network — lenders, attorneys, diligence providers, and recruiters.</p>
+              </li>
+            </ul>
+          </div>
 
-        <h4 class="font-heading font-semibold text-platinum uppercase tracking-wide text-xs mb-3">Who It's For</h4>
-        <p class="text-[14px] leading-relaxed text-silver mb-6">
-          This is for active searchers who know the basics and want to get sharper at evaluating,
-          structuring, and executing. People who see this as a long-term path, not a one-time thing. It's
-          not for passive investors or people just kicking the tires.
-        </p>
-
-        <div class="divider-fade h-px w-full mb-6"></div>
-
-        <h4 class="font-heading font-semibold text-platinum uppercase tracking-wide text-xs mb-3">Cost</h4>
-        <ul class="space-y-3 mb-6">
-          <li>
-            <p class="text-platinum font-semibold text-[14px]">Core Membership</p>
-            <p class="text-silver text-[14px] leading-relaxed">$2,000 a month, month to month. The price goes up as the room fills.</p>
-          </li>
-          <li>
-            <p class="text-platinum font-semibold text-[14px]">1:1 Calls (add-on)</p>
-            <p class="text-silver text-[14px] leading-relaxed">Optional dedicated time.</p>
-          </li>
-          <li>
-            <p class="text-platinum font-semibold text-[14px]">Deal Sourcing (add-on)</p>
-            <p class="text-silver text-[14px] leading-relaxed">Optional, if available.</p>
-          </li>
-        </ul>
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
-           class="mt-auto btn-primary inline-flex items-center justify-center gap-2 bg-platinum text-navy font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
-          Apply for the Vyterro Deal Room
-        </a>
+          <div class="lg:col-span-3 flex flex-col">
+            <h4 class="font-heading font-semibold text-platinum uppercase tracking-wide text-xs mb-3">Cost</h4>
+            <ul class="space-y-3 mb-6">
+              <li>
+                <p class="text-platinum font-semibold text-[14px]">Core Membership</p>
+                <p class="text-silver text-[14px] leading-relaxed">$2,000/mo, month to month. Price rises as the room fills.</p>
+              </li>
+              <li>
+                <p class="text-platinum font-semibold text-[14px]">1:1 Calls (add-on)</p>
+                <p class="text-silver text-[14px] leading-relaxed">Optional dedicated time.</p>
+              </li>
+              <li>
+                <p class="text-platinum font-semibold text-[14px]">Deal Sourcing (add-on)</p>
+                <p class="text-silver text-[14px] leading-relaxed">Optional, if available.</p>
+              </li>
+            </ul>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
+               class="mt-auto btn-primary inline-flex items-center justify-center gap-2 bg-platinum text-navy font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
+              Apply for the Vyterro Deal Room
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- CARD: VYTERRO PARTNERSHIPS -->
-      <div id="partnership" class="card-lift bg-deep-navy/70 border border-white/[0.08] rounded-sm p-8 flex flex-col shadow-dark-inset fade-rise">
-        <h3 class="font-display text-2xl text-platinum mb-3">Vyterro Partnerships</h3>
-        <p class="text-silver leading-[1.7] text-[15px] mb-6">
-          A true partnership model: Vyterro works alongside the searcher directly on the deal, treating it as
-          partially its own — sourcing strategy, search narrative refinement, deal evaluation, broker/seller
-          calls, structuring, negotiation, diligence, bank and closing process support, transition support, and
-          post-closing advisory.
-        </p>
+      <!-- ROW: VYTERRO PARTNERSHIPS -->
+      <div id="partnership" class="card-lift bg-deep-navy/70 border border-white/[0.08] rounded-sm p-8 lg:p-10 shadow-dark-inset fade-rise">
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+          <div class="lg:col-span-4">
+            <p class="font-display text-4xl text-silver/25 mb-2">02</p>
+            <h3 class="font-display text-2xl text-platinum mb-3">Vyterro Partnerships</h3>
+            <p class="text-silver leading-[1.7] text-[15px]">
+              Vyterro works alongside the searcher directly on the deal, treating it as partially its own —
+              sourcing, structuring, negotiation, diligence, financing, and post-close.
+            </p>
+          </div>
 
-        <ul class="space-y-3 mb-6">
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-silver shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver"><span class="font-semibold text-platinum">Equity, no monthly fee</span> — Vyterro takes an ownership stake in the acquisition instead of charging a fee.</p>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 w-1.5 h-1.5 rounded-full bg-silver shrink-0"></span>
-            <p class="text-[14px] leading-relaxed text-silver"><span class="font-semibold text-platinum">Selective, interview required</span> — fit matters given the long-term, equity nature of the arrangement.</p>
-          </li>
-        </ul>
+          <div class="lg:col-span-5">
+            <ul class="space-y-3">
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-silver shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver"><span class="font-semibold text-platinum">Equity, no monthly fee</span> — Vyterro takes an ownership stake instead of charging a fee.</p>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 w-1.5 h-1.5 rounded-full bg-silver shrink-0"></span>
+                <p class="text-[14px] leading-relaxed text-silver"><span class="font-semibold text-platinum">Selective, interview required</span> — fit matters given the long-term, equity nature of the arrangement.</p>
+              </li>
+            </ul>
+          </div>
 
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
-           class="mt-auto btn-primary inline-flex items-center justify-center gap-2 bg-platinum text-navy font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
-          Inquire About Partnerships
-        </a>
+          <div class="lg:col-span-3">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
+               class="btn-primary w-full inline-flex items-center justify-center gap-2 bg-platinum text-navy font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-silver">
+              Inquire About Partnerships
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- CARD: ADVISORY SERVICES -->
-      <div id="advisory" class="card-lift bg-deep-navy/70 border border-white/[0.08] rounded-sm p-8 flex flex-col shadow-dark-inset fade-rise">
-        <span class="inline-flex w-fit font-heading text-[11px] font-semibold tracking-[0.15em] uppercase text-navy bg-silver px-3 py-1 rounded-sm mb-5">1:1</span>
-        <h3 class="font-display text-2xl text-platinum mb-3">Advisory Services</h3>
-        <p class="text-silver leading-[1.7] text-[15px] mb-6">
-          For searchers who do not yet qualify for Vyterro Deal Room or Partnerships.
-        </p>
+      <!-- ROW: ADVISORY SERVICES -->
+      <div id="advisory" class="card-lift bg-deep-navy/70 border border-white/[0.08] rounded-sm p-8 lg:p-10 shadow-dark-inset fade-rise">
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+          <div class="lg:col-span-4">
+            <p class="font-display text-4xl text-silver/25 mb-2">03</p>
+            <span class="inline-flex w-fit font-heading text-[11px] font-semibold tracking-[0.15em] uppercase text-navy bg-silver px-3 py-1 rounded-sm mb-5">1:1</span>
+            <h3 class="font-display text-2xl text-platinum mb-3">Advisory Services</h3>
+            <p class="text-silver leading-[1.7] text-[15px]">
+              For searchers who do not yet qualify for Vyterro Deal Room or Partnerships.
+            </p>
+          </div>
 
-        <div class="divider-fade h-px w-full mb-6"></div>
-        <p class="font-display text-2xl text-platinum mb-1">$450<span class="text-base font-body text-silver">/hour</span></p>
-        <p class="text-silver text-sm mb-8">Capped monthly hours.</p>
+          <div class="lg:col-span-5">
+            <p class="text-silver/70 text-[14px] leading-relaxed italic">
+              Structured 1:1 guidance, not a replacement for the Deal Room.
+            </p>
+          </div>
 
-        <p class="text-silver/70 text-[13px] leading-relaxed italic mb-8">
-          Structured 1:1 guidance, not a replacement for the Deal Room.
-        </p>
-
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
-           class="mt-auto btn-primary inline-flex items-center justify-center gap-2 bg-navy text-platinum font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-steel-blue">
-          Request Advisory
-        </a>
+          <div class="lg:col-span-3">
+            <p class="font-display text-2xl text-platinum mb-1">$450<span class="text-base font-body text-silver">/hour</span></p>
+            <p class="text-silver text-sm mb-6">Capped monthly hours.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener"
+               class="btn-primary w-full inline-flex items-center justify-center gap-2 bg-navy text-platinum font-heading text-sm font-semibold tracking-wide uppercase px-6 py-3.5 rounded-sm shadow-elevated hover:shadow-floating focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-steel-blue">
+              Request Advisory
+            </a>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -377,14 +415,14 @@
 
     <div class="grid lg:grid-cols-12 rounded-sm overflow-hidden shadow-floating fade-rise">
       <div class="lg:col-span-5 relative bg-navy grain overflow-hidden flex items-center justify-center p-10 lg:p-14">
-        <div class="w-48 sm:w-56 lg:w-full lg:max-w-xs relative rounded-sm overflow-hidden shadow-floating aspect-[4/5]">
+        <div class="w-48 sm:w-56 lg:w-full lg:max-w-xs relative rounded-sm overflow-hidden shadow-floating aspect-[4/5] border-4 border-platinum">
           <img src="data:image/jpeg;base64,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" alt="Evan DiLeonardi, Founder & Managing Partner of Vyterro" class="w-full h-full object-cover">
           <div class="absolute inset-0 bg-gradient-to-t from-navy/60 via-navy/0 to-navy/0 mix-blend-multiply"></div>
         </div>
       </div>
       <div class="lg:col-span-7 bg-white p-8 sm:p-10 lg:p-14">
-        <h3 class="font-display text-2xl text-navy mb-1">Evan DiLeonardi</h3>
-        <p class="font-heading text-[13px] uppercase tracking-wide text-steel-blue mb-6">Founder &amp; Managing Partner</p>
+        <h3 class="font-display text-2xl text-navy mb-1 text-center">Evan DiLeonardi</h3>
+        <p class="font-heading text-[13px] uppercase tracking-wide text-steel-blue mb-6 text-center">Founder &amp; Managing Partner</p>
         <p class="text-[1.05rem] leading-[1.7] text-gunmetal mb-6 text-left">
           Evan DiLeonardi is the founder of Vyterro and General Partner of Meridian Peak Capital, an
           acquisition fund backing proven operators buying small and lower-middle-market businesses.
@@ -396,20 +434,20 @@
         </p>
 
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-px bg-silver/25 rounded-sm overflow-hidden mb-10">
-          <div class="bg-white px-4 py-6 card-lift">
-            <p class="font-display text-3xl text-navy">5</p>
+          <div class="bg-white px-4 py-6 card-lift text-center">
+            <p class="font-display text-2xl text-navy whitespace-nowrap">5</p>
             <p class="text-[11px] font-heading uppercase tracking-wide text-gunmetal/70 mt-1">Acquisitions</p>
           </div>
-          <div class="bg-white px-4 py-6 card-lift">
-            <p class="font-display text-3xl text-navy">$4M</p>
+          <div class="bg-white px-4 py-6 card-lift text-center">
+            <p class="font-display text-2xl text-navy whitespace-nowrap">$4M</p>
             <p class="text-[11px] font-heading uppercase tracking-wide text-gunmetal/70 mt-1">EBITDA Acquired</p>
           </div>
-          <div class="bg-white px-4 py-6 card-lift">
-            <p class="font-display text-3xl text-navy">2.5x</p>
+          <div class="bg-white px-4 py-6 card-lift text-center">
+            <p class="font-display text-2xl text-navy whitespace-nowrap">2.5x</p>
             <p class="text-[11px] font-heading uppercase tracking-wide text-gunmetal/70 mt-1">Avg. Effective Multiple</p>
           </div>
-          <div class="bg-white px-4 py-6 card-lift">
-            <p class="font-display text-3xl text-navy">7-Figure</p>
+          <div class="bg-white px-4 py-6 card-lift text-center">
+            <p class="font-display text-2xl text-navy whitespace-nowrap">7-Figure</p>
             <p class="text-[11px] font-heading uppercase tracking-wide text-gunmetal/70 mt-1">Equity Deployed</p>
           </div>
         </div>
@@ -580,6 +618,28 @@
     });
   }, { threshold: 0.15 });
   document.querySelectorAll('.fade-rise').forEach((el) => observer.observe(el));
+
+  const menuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('menu-icon-open');
+  const iconClose = document.getElementById('menu-icon-close');
+
+  menuBtn.addEventListener('click', () => {
+    const isOpen = !mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    iconOpen.classList.toggle('hidden');
+    iconClose.classList.toggle('hidden');
+    menuBtn.setAttribute('aria-expanded', String(!isOpen));
+  });
+
+  mobileMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
 </script>
 </body>
 </html>
