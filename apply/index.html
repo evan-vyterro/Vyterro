@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apply | Vyterro</title>
+  <meta name="description" content="Tell Vyterro about your acquisition goals and the support you are looking for.">
+  <link rel="canonical" href="https://www.vyterro.com/apply/">
+  <link rel="icon" type="image/png" href="/brand_assets/favicon-32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Playfair+Display:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --navy: #0E1E38;
+      --deep-navy: #080F1E;
+      --platinum: #F2F3F5;
+      --silver: #9BA6B1;
+      --gunmetal: #4B5560;
+      --gold: #C9A96A;
+      --gold-dark: #A67C00;
+    }
+    * { box-sizing: border-box; }
+    html { min-width: 320px; }
+    body { margin: 0; background: var(--platinum); color: var(--navy); font-family: Inter, sans-serif; }
+    a { color: inherit; text-underline-offset: .2em; }
+    a:hover { color: var(--gold-dark); }
+    a:active { opacity: .8; }
+    a:focus-visible { outline: 3px solid var(--gold); outline-offset: 5px; border-radius: 2px; }
+    .skip-link { position: absolute; top: -90px; left: 18px; z-index: 2; padding: 12px 18px; background: white; color: var(--navy); }
+    .skip-link:focus { top: 14px; }
+    .site-header { background: var(--navy); color: var(--platinum); border-bottom: 1px solid rgba(201,169,106,.3); }
+    .header-inner { width: min(1120px, 100%); margin: 0 auto; padding: 20px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; font: 600 25px Cinzel, serif; letter-spacing: .12em; }
+    .brand img { width: 36px; height: 36px; object-fit: contain; }
+    .site-header a:hover { color: var(--gold); }
+    .back-link { font-size: 14px; line-height: 1.5; white-space: nowrap; }
+    main { width: min(960px, 100%); margin: 0 auto; padding: 36px 28px 48px; }
+    .intro { max-width: 700px; margin: 0 auto 22px; }
+    h1 { margin: 0 0 12px; font-family: "Playfair Display", Georgia, serif; font-size: clamp(30px, 4.5vw, 42px); font-weight: 500; line-height: 1.18; letter-spacing: -.025em; }
+    .intro p { margin: 0 0 18px; color: var(--gunmetal); font-size: 17px; line-height: 1.7; }
+    .intro .fallback { margin-bottom: 0; font-size: 14px; line-height: 1.6; }
+    .fallback a { color: var(--navy); font-weight: 600; }
+    .fallback a:hover { color: var(--gold-dark); }
+    .application { max-width: 760px; margin: 0 auto; overflow: hidden; background: #fff; border: 1px solid rgba(14,30,56,.1); border-top: 3px solid var(--gold); border-radius: 5px; box-shadow: 0 10px 35px rgba(14,30,56,.07), 0 2px 7px rgba(14,30,56,.04); scroll-margin-top: 20px; }
+    .application iframe { display: block; width: 100%; height: 4000px; border: 0; background: white; }
+    .below-form { max-width: 760px; margin: 22px auto 0; color: var(--gunmetal); font-size: 14px; line-height: 1.7; text-align: center; }
+    .site-footer { border-top: 1px solid rgba(155,166,177,.3); }
+    .footer-inner { width: min(1120px, 100%); margin: 0 auto; padding: 25px 28px; display: flex; justify-content: space-between; gap: 16px; color: var(--gunmetal); font-size: 13px; line-height: 1.6; }
+    .footer-inner p { margin: 0; }
+    @media (max-width: 640px) {
+      .header-inner { padding: 14px 18px; gap: 12px; }
+      .brand { gap: 8px; font-size: 21px; }
+      .brand img { width: 30px; height: 30px; }
+      .back-link { font-size: 12px; }
+      main { padding: 24px 12px 34px; }
+      .intro { padding: 0 8px; margin-bottom: 18px; }
+      .intro p { font-size: 16px; }
+      .intro .fallback { font-size: 14px; }
+      .application iframe { height: 4700px; }
+      .footer-inner { padding: 22px 20px; flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#application">Skip to application</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Vyterro home">
+        <img src="/brand_assets/vyterro-icon.svg" alt="" width="36" height="36">
+        <span>VYTERRO</span>
+      </a>
+      <a class="back-link" href="/#offerings">Explore our offerings</a>
+    </div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="application-heading">
+      <h1 id="application-heading">Apply to work with Vyterro</h1>
+      <p>Tell us about your acquisition goals.</p>
+      <p class="fallback"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform" target="_blank" rel="noopener">Open the form in a separate tab</a></p>
+    </section>
+    <section class="application" id="application" aria-label="Vyterro application">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOy9THtXVTCZ8Q-9CmcHegY3gv3dZ5bpgFv_kJGNx9gSnbvw/viewform?embedded=true" title="Vyterro Services Application" referrerpolicy="strict-origin-when-cross-origin" loading="eager">Your browser cannot display the embedded application. Use the application link above.</iframe>
+    </section>
+    <p class="below-form">If the form does not load, use the separate-tab link above.</p>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>© 2026 Vyterro. Business Consulting &amp; Services.</p>
+      <a href="/">Back to Vyterro</a>
+    </div>
+  </footer>
+</body>
+</html>
